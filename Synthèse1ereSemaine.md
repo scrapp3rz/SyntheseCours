@@ -9,7 +9,7 @@
 ## Qu’est ce que l’Objet?
 
 <<<<<<< HEAD
-# IV - Instructions Conditionnelles / Boucles
+
 =======
 L’objet, et par extension la POO (Programmation Orientée Objet) est une méthode de programmation qui se base sur la formation de modèles de données regroupées en une unité, l’objet.
 Ainsi, lorsque l’on veut **instancier** un objet, il faut commencer par définir ce que seront ses **propriétés**. Afin de les définir, il est nécessaire de se rappeler que ces propriétés sont des variables qui seront accessibles pour **l’instanciation** de l’objet. 
