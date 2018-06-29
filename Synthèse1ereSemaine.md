@@ -17,23 +17,25 @@ Quand l'on intégre un objet dans une classe / un contexte l'on dit que l'on INS
 
 let blop = "blop"
 
-`class Point {                                                                  |
-  constructor(x, y) {                           |                              | 
+
+
+    class Point {                                                              |
+     constructor(x, y) {                           |                           | 
     this.x = x;                                 |   constructor                |
     this.y = y;                                 |   est un objet               |
-    blop = "test"	//valable car il peut                                      |
+    blop = "test"	//valable car il peut                                        |
                      communiquer avec blop                                     |
-  }                                                                            |
+    }                                                                          |
                                                                                |
                                                                                |      Classe Point est le contexte
     static distance(a, b) {                     |                              |
     const dx = a.x - b.x;                       |   static distance            |
     const dy = a.y - b.y;                       |    est un objet              |
-  }                                                                            |
-  dx = 3 //non valable car il ne peut pas                                      |
+    }                                                                          |
+     dx = 3 //non valable car il ne peut pas                                   |
            communiquer avec static distance                                    |
            car il est en dehors des {}                                         |
-}                                                                              |
+  }                                                                            |
                                                                                |
 dx = 3 //non valable car il ne peut pas                                        |
          communiquer avec static distance
