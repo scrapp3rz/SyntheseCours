@@ -11,7 +11,7 @@
 
 
 # V - Opérateurs
-Un opérateur est un caractère ou une chaine de caractère qui permet de réaliser une opération entre 2 *(et seulement 2)* opérandes !
+Un opérateur est un caractère ou une chaine de caractères qui permet de réaliser une opération entre 2 *(et seulement 2)* opérandes !
 
 ## Les opérateurs arythmétiques
 
