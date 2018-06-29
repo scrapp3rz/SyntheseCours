@@ -15,8 +15,8 @@ Un opérateur est un caractère ou une chaine de caractère qui permet de réali
 
 ## Les opérateurs arythmétiques
 
-* "+" : l'opérateur d'addition et de concaténation
-	ex : 1 + 3 => 4
+* `+` : l'opérateur d'addition et de concaténation
+	ex : `1 + 3 => 4`
 	ex : 'ab' + 'bc' => 'abbc'
 * "-" : l'opérateur de soustraction
 	ex : 4 - 3 => 1
