@@ -1,10 +1,10 @@
-I - Les structures de Données
+# I - Les structures de Données
 
 
-II - Encapsulation
+# II - Encapsulation
 
 
-III - JSON/Objets
+# III - JSON/Objets
 
 ## Qu’est ce que l’Objet?
 
@@ -51,9 +51,9 @@ Une fois l’objet instancié, on peut alors modifier ses propriétés ainsi.
 ted.age = 20; 
 
 
-Le JSON
+## Le JSON
 
-Le JSON est un format de données structurées que l’on retrouve en JS, mais également dans bien d’autres langages. 
+Le **JSON** est un format de données structurées que l’on retrouve en JS, mais également dans bien d’autres langages. 
 Il repose sur une structure de paires **CLEF : VALEUR** et se structure ainsi : 
 
 {
@@ -66,9 +66,9 @@ Le scope est délimité par les { … } et les paires sont séparées par une vi
 
 
 
-IV - Instructions Conditionnelles / Boucles
+# IV - Instructions Conditionnelles / Boucles
 
 
-V - Opérateurs
+# V - Opérateurs
 
 
