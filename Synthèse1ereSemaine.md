@@ -56,7 +56,7 @@ ted.age = 20;
 Le **JSON** est un format de données structurées que l’on retrouve en JS, mais également dans bien d’autres langages. 
 Il repose sur une structure de paires **CLEF : VALEUR** et se structure ainsi : 
 
-{
+'{
 
         "date" : 1.5274348196831222E9,
 	
@@ -64,7 +64,7 @@ Il repose sur une structure de paires **CLEF : VALEUR** et se structure ainsi :
 	
         "user" : "eaIHGKF6EVUPIVICHbMgL8serC23"
 	
-}
+}'
 
 Le scope est délimité par les { … } et les paires sont séparées par une virgule.
 
