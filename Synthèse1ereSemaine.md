@@ -17,7 +17,7 @@ Quand l'on intégre un objet dans une classe / un contexte l'on dit que l'on INS
 
 let blop = "blop"
 
-class Point {                                                                  |
+`class Point {                                                                  |
   constructor(x, y) {                           |                              | 
     this.x = x;                                 |   constructor                |
     this.y = y;                                 |   est un objet               |
