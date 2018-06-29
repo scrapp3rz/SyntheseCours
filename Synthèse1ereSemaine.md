@@ -11,7 +11,7 @@
 
 
 # V - Opérateurs
-Un opérateur est un caractère ou une chaine de caractère qui permet de réaliser une opération entre 2 _(et seulement 2)_ opérandes !
+Un opérateur est un caractère ou une chaine de caractère qui permet de réaliser une opération entre 2 *(et seulement 2)* opérandes !
 
 ## Les opérateurs arythmétiques
 
@@ -81,14 +81,31 @@ Un opérateur est un caractère ou une chaine de caractère qui permet de réali
 * "||" : l'opératuer OU Logique
 	renvoie true si une des deux opérande (ou les deux) renvoie true
 
-## Les opérateurs d'affectation
+## Les opérateurs particuliers
 
 * "=" : l'opérateur d'affectation
+	permet d'affecter une "valeur" à une variable
+	ex: a = "blop"
 * "!" : l'opérateur de négation
+	permet d'utiliser l'état inverse
+	ex: !false => true
 * "+=" : l'opérateur d'affectation après addition
+	ajoute une valeur à la valeur de la variable et stock le resultat dans cette variable
+	ex: a = 3; a += 2 => a: 5
 * "-=" : l'opérateur d'affectation après soustraction (déclinable avec tous les opérateurs arythmétiques classiques et les opérateurs logiques)
-
+	soustrait une valeur à la valeur de la variable et stock le resultat dans cette variable
+	ex: a = 3; a -= 2 => a: 1
 * "." : l'opérateur d'accession (voir JSON & Objects)
+	permet d'accéder à une propriété d'un objet JSON
+	NE FONCTIONNE PAS POUR LES TABLEAUX
+	ex: t = {"a" : 3} ; t.a => 3
 * "[]" : l'opérateur d'accession (JSON (Objets et tableaux))
+	permet d'accéder à une propriété d'un objet JSON (méthode pour les tableaux)
+	ex: t = {3, 5 ,8} ; t[a] => 3
+	ex: t = {"a" : 3, "b" : 5 ,"c" : 8} ; t[a] => 3
 * "()" : l'opérateur d'appel et d'instanciation (voir Objets)
+	permet d'appeler une fonction par son nom et lui passer des paramètres
+	ex: fnct("blop")
 * ":" : l'opérateur d'assignation d'une valeur à une clé (voir JSON)
+	permet d'assigner une valeur à une clé dans un objet JSON
+	ex: t = { key : "value" }
