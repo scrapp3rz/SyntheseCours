@@ -108,4 +108,4 @@ Un opérateur est un caractère ou une chaine de caractère qui permet de réali
 	ex: `fnct("blop")`
 * `:` : l'opérateur d'assignation d'une valeur à une clé (voir JSON)
 	permet d'assigner une valeur à une clé dans un objet JSON
-	ex: `t = { key : "value` }`
+	ex: `t = { key : "value" }`
