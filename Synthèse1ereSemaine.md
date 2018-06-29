@@ -27,9 +27,9 @@ Définition de l'encapsulation :
 - Coupe  une classe / un contexte du reste du code grace aux { }. 
 - Les class (attributs) ont des fonctions (méthodes) qui lui sont spécifiquement associés. 
 - Le champ d'action des attributs et des méthodes est par défaut l'objet lui-même et non les autres objets.  
-- Une méthode communique avec son attribut mais également avec les attribus de son attribu. L'inverse n'est pas possible (voir exemple let blop='blop')
+- Une méthode communique avec son attribut mais également avec les attributs de son attribut. L'inverse n'est pas possible (voir exemple let blop='blop')
 
-Quand l'on intègre un objet dans une classe / un contexte, on dit que l'on INSTANCIE un objet à une classe. 
+Quand on intègre un objet dans une classe / un contexte, on dit qu'on INSTANCIE un objet à une classe. 
 
 
 
@@ -40,10 +40,10 @@ let blop = "blop"
 
 
     class Point {                                                              |
-     constructor(x, y) {                        |                              | 
+    constructor(x, y) {                         |                              | 
     this.x = x;                                 |   constructor                |
     this.y = y;                                 |   est un objet               |
-    blop = "test"	//valable car il peut                                      |
+    blop = "test"	//valable car il peut                                  |
                      communiquer avec blop                                     |
     }                                                                          |
                                                                                |
