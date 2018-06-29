@@ -108,7 +108,7 @@ On peut en imaginer bien d’autres, qui peuvent permettre de compléter les fon
 Un **objet** a donc des **propriétés** (caractéristique d'un objet, sa couleur par exemple), mais a également des **méthodes** (capacité d'un objet, changer de couleur par exemple), c’est à dire ce que l’objet peut faire. 
 
 
-Afin de construire un objet, il faut d’abord le définir via un **constructeur**, puis ensuite, une fois défini, on va **l'instancier**. Chaque **instanciation** est unique, et lorsque l’on a besoin d’utiliser un objet, on l’instance (on en crée une copie).
+Afin de construire un objet, il faut d’abord le définir via un **constructeur**, puis ensuite, une fois défini, on va **l'instancier**. Chaque **instanciation** est unique, et lorsque l’on a besoin d’utiliser un objet, on l’instancie (on en crée une copie).
 
 ### Le constructeur : 
 
@@ -155,7 +155,7 @@ Le scope est délimité par les { … } et les paires sont séparées par une vi
 Il existe deux types d'instructions :
 
 -les instructions alternatives (condition,action)
--les instructions iteratives (répétition)
+-les instructions itératives (répétition)
 
 Les instructions alternatives sont de deux types :
 
@@ -164,7 +164,7 @@ Les instructions alternatives sont de deux types :
 Les instructions itératives sont de deux types :
 
 -nombre répétition connue :		for(initialisation ; condition de continuation ; incrément)
--nombre de reépétition inconnue :	while()
+-nombre de répétition inconnue :	while()
 
 Pour le while() la condition d'arrêt peut être :
 - au début :				while(condition d'arrêt)
