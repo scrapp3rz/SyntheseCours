@@ -74,7 +74,7 @@ Un opérateur est un caractère ou une chaine de caractère qui permet de réali
 	ex: 4 <= 8 => true
 	ex: 4 <= 4 => true
 
-##Les opérateurs logiques
+## Les opérateurs logiques
 
 * "&&" : l'opérateur ET Logique
 	renvoie true si les deux opérandes renvoie true
