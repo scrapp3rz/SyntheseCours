@@ -43,7 +43,7 @@ let blop = "blop"
     constructor(x, y) {                         |                              | 
     this.x = x;                                 |   constructor                |
     this.y = y;                                 |   est un objet               |
-    blop = "test"	//valable car il peut                                  |
+    blop = "test"	//valable car il peut             	                     |
                      communiquer avec blop                                     |
     }                                                                          |
                                                                                |
