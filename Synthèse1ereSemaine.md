@@ -32,8 +32,8 @@ Les instructions alternatives sont de deux types :
 	- si-sinon : 		if-else
 	- switch :		switch
 Les instructions iteratives sont de deux types :
-	-nombre repetition fini :		for(initialisation ; condition de continuation ; incrément)
-	-nombre de repetition infinie :		while()
+	-nombre repetition connues :		for(initialisation ; condition de continuation ; incrément)
+	-nombre de repetition inconnues :	while()
 
 Pour le while() la condition d'arret peut etre :
 	au debut :				while(condition d'arret)
